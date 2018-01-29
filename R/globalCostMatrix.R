@@ -91,7 +91,7 @@ function(lm,
       storage.mode(lm) <- "double";
       storage.mode(cm) <- "double";
       storage.mode(step.matrix) <- "double";
-      out <- .Call("computeCM_Call",PACKAGE = "dtw.so",
+      out <- .Call("computeCM_Call", PACKAGE = "dtw",
                    wm,lm,cm,step.matrix);
     }
 
